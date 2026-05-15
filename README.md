@@ -1,70 +1,76 @@
 # Phishing Analysis Workflow
 
-Practical phishing triage workflow from an IT support and junior security operations perspective.
+Portfolio project for a junior SOC / security operations role.
 
-This project documents how I would review a suspicious email report, preserve evidence, identify indicators, check reputation safely, classify risk, and document the response. It is meant to show operational thinking, clear documentation, and security-aware troubleshooting.
+This project documents a practical phishing investigation workflow using a Microsoft 365 context. It shows how a junior analyst or IT support professional can receive a user-reported suspicious email, preserve evidence, review headers and links, extract indicators, classify risk, recommend containment, and write clear incident notes.
 
-## Purpose
+## Positioning
 
-The purpose of this project is to demonstrate a repeatable phishing analysis process that can be used by an IT support or junior SOC analyst candidate.
+This is a hands-on learning and documentation project. It stays within junior analyst triage, documentation, and escalation practice.
 
-## What I Practiced
+## Project Goals
 
-- Reviewing suspicious email reports.
-- Preserving basic evidence before taking action.
-- Checking sender, reply-to, link, attachment, and header indicators.
-- Reviewing SPF, DKIM, and DMARC concepts.
-- Extracting indicators of compromise.
-- Checking domain and URL reputation safely.
-- Classifying risk based on user action and evidence.
-- Writing concise incident notes and escalation recommendations.
+- Demonstrate phishing triage fundamentals.
+- Show operational documentation discipline.
+- Practice Microsoft 365 email security concepts.
+- Build interview-defensible SOC examples.
+- Create screenshot-friendly artifacts for GitHub and LinkedIn.
 
-## Tools and Concepts
+## Project Structure
 
-- Email header review.
-- SPF, DKIM, and DMARC.
-- URL and domain reputation checks.
-- IOC tracking.
-- Incident notes.
-- Microsoft 365 and email security concepts.
-- Safe analysis practices.
+| Folder | Purpose |
+|---|---|
+| `docs` | Investigation workflow, Microsoft 365 context, analyst timeline, and remediation guidance |
+| `samples` | Sanitized phishing sample scenarios |
+| `evidence` | IOC extraction and header/link/attachment review examples |
+| `incident_notes` | Sample incident notes and escalation summary |
+| `templates` | Reusable IOC, intake, and incident note templates |
+| `screenshots` | Screenshot checklist and placeholders |
+| `linkedin` | LinkedIn-ready project summary |
 
-## Workflow
+## Core Workflow
 
-The full workflow is documented here:
+1. Receive user report.
+2. Preserve evidence.
+3. Review sender, headers, links, and attachments.
+4. Extract indicators of compromise.
+5. Check reputation safely.
+6. Classify risk.
+7. Recommend containment.
+8. Document findings.
+9. Capture lessons learned.
 
-- [Phishing Analysis Workflow](docs/phishing-analysis-workflow.md)
+## Key Artifacts
 
-## Sample Documentation
+- [Investigation Workflow](docs/investigation-workflow.md)
+- [Microsoft 365 Phishing Context](docs/microsoft-365-context.md)
+- [Analyst Timeline Walkthrough](docs/analyst-timeline-walkthrough.md)
+- [Remediation Recommendations](docs/remediation-recommendations.md)
+- [Lessons Learned](docs/lessons-learned.md)
+- [IOC Extraction Example](evidence/ioc-extraction-example.md)
+- [Email Header Analysis Example](evidence/email-header-analysis-example.md)
+- [Suspicious Link and Attachment Review](evidence/link-and-attachment-review.md)
+- [Sample Incident Notes](incident_notes/incident-notes-sample.md)
 
-- [Sample Analysis](samples/sample-phishing-analysis.md)
-- [IOC Checklist](templates/ioc-checklist.md)
-- [Incident Notes Template](templates/incident-notes-template.md)
+## Screenshot Status
 
-## Screenshots
+Screenshots are not included yet. The project is structured so screenshots can be added without rewriting the documentation.
 
-Screenshot placeholders are organized here:
+Needed screenshots:
 
-- [Screenshots](screenshots/README.md)
+- User-reported phishing email example.
+- Email header or authentication results.
+- Suspicious URL reputation check.
+- Attachment review or hash lookup, if applicable.
+- Completed IOC checklist.
+- Completed incident notes.
 
-Screenshots should be added only after they are sanitized. Do not include real email addresses, private links, tenant details, message IDs, IP addresses, or user information.
+## Interview Talking Point
 
-## Skills Demonstrated
+"I built a phishing analysis workflow to practice junior SOC triage. The project walks through user reporting, evidence preservation, Microsoft 365 email context, header review, IOC extraction, safe reputation checks, risk classification, containment recommendations, and incident documentation."
 
-- Security operations documentation.
-- Phishing triage fundamentals.
-- Evidence handling discipline.
-- IOC extraction.
-- Risk classification.
-- Clear escalation notes.
-- Practical IT-to-security transition work.
+## Next Improvements
 
-## Limitations
-
-This is a portfolio workflow and documentation project. It does not claim advanced malware analysis, threat hunting, or ownership of an enterprise phishing response program.
-
-## Next Improvement
-
-- Add sanitized screenshots from the completed workflow.
-- Add one more sample using a benign training email.
-- Connect the workflow to a Microsoft Defender or Microsoft 365 investigation example if available.
+- Add sanitized screenshots.
+- Add a Microsoft Defender / Microsoft 365 review example if available.
+- Add one more sample showing credential entry and session revocation steps.

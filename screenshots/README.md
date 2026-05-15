@@ -1,25 +1,27 @@
-# Screenshots
+# Screenshot Placeholders
 
-Add sanitized screenshots from the completed phishing workflow here.
+Add sanitized screenshots here when available.
 
-## Needed Screenshots
+## Required Screenshots
 
-- Suspicious email example with private details redacted.
-- Header review or authentication results.
-- URL/domain reputation check.
-- IOC checklist or incident notes.
-- Final documentation view.
+| Screenshot | Filename | Status |
+|---|---|---|
+| Suspicious email example | `01-suspicious-email.png` | Missing |
+| Header or authentication result | `02-header-analysis.png` | Missing |
+| Suspicious URL reputation check | `03-url-reputation.png` | Missing |
+| IOC checklist filled out | `04-ioc-checklist.png` | Missing |
+| Incident notes completed | `05-incident-notes.png` | Missing |
 
-## Screenshot Rules
+## Screenshot Safety Rules
 
-- Remove real email addresses.
-- Remove user names.
-- Remove tenant IDs.
-- Remove message IDs.
-- Remove private URLs.
-- Remove public IP addresses unless they are intentionally sanitized.
-- Do not upload screenshots that expose credentials, tokens, cookies, or private account data.
+- Redact real names.
+- Redact real email addresses.
+- Redact tenant IDs.
+- Redact message IDs.
+- Redact private URLs.
+- Redact tokens, cookies, and credentials.
+- Use sanitized training data where possible.
 
-## Current Status
+## GitHub Display Plan
 
-No real phishing workflow screenshots are included yet. Add sanitized screenshots here before using the repo as a screenshot-backed portfolio project.
+After screenshots are added, reference them from the main README under a `Screenshots` section.

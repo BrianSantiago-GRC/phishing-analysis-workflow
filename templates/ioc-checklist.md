@@ -19,3 +19,4 @@
 | User clicked |  |  |
 | Credentials entered |  |  |
 | Escalation needed |  |  |
+| Recommended containment |  |  |
