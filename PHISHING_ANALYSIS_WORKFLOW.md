@@ -1,11 +1,11 @@
 # Phishing Analysis Workflow - Project Status
 
 Date started: 2026-05-15
-Status: portfolio structure rebuilt; screenshots pending
+Status: completed portfolio documentation; screenshot evidence polish pending
 
 GitHub: https://github.com/BrianSantiago-GRC/phishing-analysis-workflow
 
-Note: Brian confirmed the project was completed, but the original local files were lost. This local workspace now contains a rebuilt portfolio-quality project structure. Screenshots still need to be added from recovered or newly sanitized evidence.
+Note: Brian confirmed the project was completed, but the original local files were lost. This local workspace now contains a rebuilt, completed portfolio-quality documentation project. Screenshots still need to be added from recovered or newly sanitized evidence.
 
 ## Main Files
 
@@ -15,12 +15,12 @@ Note: Brian confirmed the project was completed, but the original local files we
 - `docs/analyst-timeline-walkthrough.md`
 - `docs/remediation-recommendations.md`
 - `docs/lessons-learned.md`
-- `samples/sample-01-m365-password-reset.md`
-- `samples/sample-02-invoice-attachment.md`
+- `scenarios/scenario-01-m365-password-reset.md`
+- `scenarios/scenario-02-invoice-attachment.md`
 - `evidence/ioc-extraction-example.md`
 - `evidence/email-header-analysis-example.md`
 - `evidence/link-and-attachment-review.md`
-- `incident_notes/incident-notes-sample.md`
+- `incident_notes/completed-incident-notes.md`
 - `incident_notes/escalation-summary.md`
 - `templates/ioc-checklist.md`
 - `templates/incident-notes-template.md`

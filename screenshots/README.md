@@ -15,7 +15,7 @@ Screenshots should show realistic triage evidence, completed documentation, or s
 ## Tools Used
 
 - Microsoft 365 phishing review context
-- Email header viewer or safe header sample
+- Email header viewer or sanitized header scenario
 - URL reputation review tool
 - IOC checklist
 - Incident notes template
@@ -81,4 +81,3 @@ Required screenshots:
 - Redact private URLs.
 - Redact tokens, cookies, and credentials.
 - Use sanitized training data where possible.
-

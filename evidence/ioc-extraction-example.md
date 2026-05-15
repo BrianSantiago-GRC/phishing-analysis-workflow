@@ -2,7 +2,7 @@
 
 ## Source
 
-Sample 01: Microsoft 365 Password Reset Phish
+Scenario 01: Microsoft 365 Password Reset Phish
 
 ## Extracted Indicators
 
@@ -11,9 +11,9 @@ Sample 01: Microsoft 365 Password Reset Phish
 | Sender email | `security-alert@example-training.com` | Non-Microsoft sender |
 | Reply-to | `support@example-training.com` | Does not match claimed Microsoft identity |
 | Subject | `Action Required: Password Expiration Notice` | Urgency language |
-| URL | `hxxps://m365-verify.example[.]com/login` | Defanged sample URL |
+| URL | `hxxps://m365-verify.example[.]com/login` | Defanged scenario URL |
 | Domain | `m365-verify.example[.]com` | Suspicious brand impersonation |
-| Attachment | None | No attachment in this sample |
+| Attachment | None | No attachment in this scenario |
 | User action | Reported before credential entry | Lowers immediate impact |
 
 ## Analyst Note

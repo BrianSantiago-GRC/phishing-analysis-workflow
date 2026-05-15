@@ -1,6 +1,6 @@
-# Sample 01: Microsoft 365 Password Reset Phish
+# Scenario 01: Microsoft 365 Password Reset Phish
 
-> Sample note: This is a sanitized training example. It does not contain real user, employer, tenant, or customer information.
+> Scenario note: This is a sanitized training scenario. It does not contain real user, employer, tenant, or customer information.
 
 ## Scenario
 
@@ -8,7 +8,7 @@ A user reports an email claiming their Microsoft 365 password will expire today.
 
 ## Observed Details
 
-| Field | Sample Value |
+| Field | Scenario Value |
 |---|---|
 | Display name | Microsoft 365 Security |
 | Sender | `security-alert@example-training.com` |

@@ -2,7 +2,7 @@
 
 > Sanitized example for portfolio documentation. Values are placeholders.
 
-## Sample Header Snippet
+## Scenario Header Snippet
 
 ```text
 From: Microsoft 365 Security <security-alert@example-training.com>
@@ -20,14 +20,14 @@ Received: from mail.example-training.com (203.0.113.10)
 | From | Claims Microsoft 365 Security | Display name may be impersonating Microsoft |
 | Sender domain | `example-training.com` | Does not match Microsoft |
 | Reply-to | `support@example-training.com` | Reply-to does not support the claimed identity |
-| SPF | Fail | Sending source not authorized in this sample |
-| DKIM | None | No valid signing observed in this sample |
-| DMARC | Fail | Domain alignment failed in this sample |
+| SPF | Fail | Sending source not authorized in this scenario |
+| DKIM | None | No valid signing observed in this scenario |
+| DMARC | Fail | Domain alignment failed in this scenario |
 | Received IP | `203.0.113.10` | Documentation IP reserved for examples |
 
 ## Analyst Summary
 
-The sample header supports a phishing classification because the sender identity, reply-to address, and authentication results do not align with the claimed Microsoft 365 brand.
+The sanitized header supports a phishing classification because the sender identity, reply-to address, and authentication results do not align with the claimed Microsoft 365 brand.
 
 ## Boundary
 

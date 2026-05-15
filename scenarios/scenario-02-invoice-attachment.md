@@ -1,6 +1,6 @@
-# Sample 02: Invoice Attachment Phish
+# Scenario 02: Invoice Attachment Phish
 
-> Sample note: This is a sanitized training example. It does not contain real user, employer, tenant, or customer information.
+> Scenario note: This is a sanitized training scenario. It does not contain real user, employer, tenant, or customer information.
 
 ## Scenario
 
@@ -8,7 +8,7 @@ A user receives an unexpected invoice email with an attachment. The message clai
 
 ## Observed Details
 
-| Field | Sample Value |
+| Field | Scenario Value |
 |---|---|
 | Display name | Accounts Receivable |
 | Sender | `billing@example-vendor-support.com` |
@@ -23,7 +23,7 @@ A user receives an unexpected invoice email with an attachment. The message clai
 - Unexpected invoice.
 - Urgent payment pressure.
 - HTML attachment.
-- Sender domain is not a known vendor domain in the sample.
+- Sender domain is not a known vendor domain in the scenario.
 - Business process pressure targeting finance/payment behavior.
 
 ## Initial Classification

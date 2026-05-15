@@ -2,7 +2,7 @@
 
 ## Suspicious Link Review
 
-Sample URL:
+Scenario URL:
 
 `hxxps://m365-verify.example[.]com/login`
 
@@ -16,11 +16,11 @@ Review points:
 
 Analyst note:
 
-The suspicious link is the strongest indicator in Sample 01 because it appears designed for credential collection.
+The suspicious link is the strongest indicator in Scenario 01 because it appears designed for credential collection.
 
 ## Attachment Review
 
-Sample attachment:
+Scenario attachment:
 
 `Invoice_Review_0515.html`
 
@@ -28,10 +28,10 @@ Review points:
 
 - Unexpected attachment.
 - HTML file type can be used to redirect users to credential pages.
-- User did not open the attachment in the sample.
+- User did not open the attachment in the scenario.
 - Do not open on a normal workstation.
 - Record the filename and obtain a hash only through an approved safe process.
 
 Analyst note:
 
-The attachment increases concern in Sample 02, but risk remains medium unless the file is opened, malware indicators are confirmed, or additional recipients are found.
+The attachment increases concern in Scenario 02, but risk remains medium unless the file is opened, malware indicators are confirmed, or additional recipients are found.
