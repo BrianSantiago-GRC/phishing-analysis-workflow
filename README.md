@@ -1,3 +1,17 @@
+<!-- recruiter-review:start -->
+## Recruiter Quick Review
+
+**Best-fit roles:** Junior SOC Analyst, Security Support Analyst, IT Support with security escalation, phishing triage support, incident documentation support.
+
+**What this proves:** I can document a user-reported phishing workflow, preserve evidence, review headers/links/attachments conceptually, extract IOCs, classify risk, recommend containment, and write clear escalation notes.
+
+**Search keywords:** phishing analysis, phishing triage, IOC extraction, email security, Microsoft 365, incident notes, escalation, containment, SOC, junior SOC, security operations, user-reported phishing, documentation.
+
+**Start here:** [RECRUITER_REVIEW.md](RECRUITER_REVIEW.md)
+
+**Honest scope:** Portfolio phishing triage workflow using sanitized scenarios. This does not claim production SOC ownership, malware analysis, or threat intelligence authority.
+<!-- recruiter-review:end -->
+
 # Phishing Analysis Workflow
 
 Portfolio project for junior SOC, security operations, and IT support to security transition roles.
